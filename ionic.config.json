@@ -1,0 +1,7 @@
+{
+  "name": "sitie",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
