@@ -1,27 +1,71 @@
-#container {
-  text-align: center;
+ion-content {
+  --ion-background-color: transparent; /* Asegúrate de que el fondo del contenido sea transparente */
+}
 
+#container {
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #7860C9; /* Cambia el color de fondo */
+  padding-top: 20px; /* Ajusta el margen superior */
+  padding-bottom: 20px; /* Ajusta el margen inferior */
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+#container #content {
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  margin-top: 30%;
+}
+
+#container img {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+#container h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
 }
 
 #container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+  font-size: 13px;
+  max-width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4rem;
 }
 
-#container a {
-  text-decoration: none;
+.buttons {
+  display: grid;
+  justify-content: center;
+  width: auto
+}
+
+.bgp {
+  color: white; /* Cambia el color del texto */
+}
+
+.buttons ion-button {
+  width: 20rem; /* Ajusta el ancho de los botones según sea necesario */
+}
+
+
+/* Estilos para el área de desplazamiento */
+ion-content .inner-scroll {
+  background-color: #7860C9; /* Cambia el color de fondo del área de desplazamiento */
+}
+
+.ghost{
+  border-color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  margin-top: 1rem;
 }

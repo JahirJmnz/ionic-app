@@ -1,0 +1,70 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; // Esto es lo que centra en medio el contenido
+    padding: 0%;
+    }
+
+#content {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+p{
+    margin-bottom: 3rem;
+}
+
+  
+  /* Estilos para el contenedor circular */
+  .circle-container {
+    width: 60px; /* Ancho del contenedor */
+    height: 60px; /* Alto del contenedor */
+    background-color: #7860C9; /* Color de fondo morado */
+    border-radius: 50%; /* Hacer que el contenedor sea circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para el ícono */
+  ion-icon {
+    font-size: 30px; /* Tamaño del ícono */
+    color: white; /* Color del ícono */
+  }
+
+  .title {
+    margin-top: 10px; /* Ajusta el margen superior del título */
+  }
+  
+  .input-container {
+    margin-bottom: 40px;
+  }
+  
+  .input-container label {
+    margin-bottom: 5px;
+    display: grid;
+  }
+  
+  .input-container input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .bold-text {
+    font-weight: 500;
+  }  
+
+  ion-button {
+    width: 100%;
+  }

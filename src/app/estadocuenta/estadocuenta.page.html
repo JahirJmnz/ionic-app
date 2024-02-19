@@ -1,0 +1,36 @@
+<ion-content>
+  <div id="card">
+    <h2>Estado de cuenta</h2>
+  </div>
+  <div id="container">
+    <div id="content">
+      <h5>Tu paquete actual es:</h5>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Paquete básico</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Internet para lo esencial. <br>2MB - $100/Mes
+          </ion-card-content>
+        </ion-card>
+        <ion-button color="primary" class="tam">Imprimir comprobante</ion-button>
+    </div>
+  </div>
+  <ion-infinite-scroll>
+    <ion-infinite-scroll-content loadingText="Please wait..." loadingSpinner="bubbles"></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home" (click)="irAInicio()">
+      <ion-icon name="home-outline"></ion-icon>
+      Inicio
+    </ion-tab-button>
+    <ion-tab-button tab="radio" (click)="estadoCuenta()">
+      <ion-icon name="newspaper-outline"></ion-icon>
+      Estado de Cuenta
+    </ion-tab-button>
+    <ion-tab-button tab="library" (click)="salir()">
+      <ion-icon name="log-out-outline"></ion-icon>
+      Salir
+    </ion-tab-button>
+  </ion-tab-bar>

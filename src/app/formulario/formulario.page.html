@@ -1,0 +1,30 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button default-href="inicio"></ion-back-button>
+  </ion-buttons>
+  <ion-title>Formulario</ion-title>
+</ion-toolbar>
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <div id="content">
+      <h5>Ingresa tus datos personales para continuar con el proceso de contratación.</h5>
+      <div class="input-container">
+        <label for="nombre" class="bold-text">Nombre</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+      </div>
+      <div class="input-container">
+        <label for="tel" class="bold-text">Teléfono</label>
+        <input type="tel" id="tel" placeholder="Ingresa tu teléfono">
+      </div>
+      <div class="input-container">
+        <label for="direc" class="bold-text">Dirección</label>
+        <input type="text" id="direc" placeholder="Ingresa tu dirección">
+      </div>
+      <div class="input-container">
+        <label for="referencia" class="bold-text">Referencia</label>
+        <input type="text" id="ref" placeholder="Ingresa una referencia">
+      </div>
+      <ion-button color="primary">Enviar solicitud</ion-button>
+    </div>
+  </div>
+</ion-content>
