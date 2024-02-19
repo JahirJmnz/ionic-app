@@ -1,0 +1,28 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button default-href="#"></ion-back-button>
+  </ion-buttons>
+  <ion-title>Iniciar sesión</ion-title>
+</ion-toolbar>
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <div id="content">
+      <div id="icono">
+        <div class="circle-container">
+          <ion-icon name="person-outline" class="icon"></ion-icon>
+        </div>
+      </div>
+      <h3>Iniciar Sesión</h3>
+      <p>Ingresa tus datos para iniciar sesión</p>
+      <div class="input-container">
+        <label for="contraseña" class="bold-text">Correo</label>
+        <input type="email" id="correo" placeholder="Ingresa tu correo">
+      </div>
+      <div class="input-container">
+        <label for="contraseña" class="bold-text">Contraseña</label>
+        <input type="password" id="contraseña" placeholder="Ingresa tu contraseña">
+      </div>
+      <ion-button color="primary" (click)="irAInicio()">Iniciar Sesión</ion-button>
+    </div>
+  </div>
+</ion-content>
